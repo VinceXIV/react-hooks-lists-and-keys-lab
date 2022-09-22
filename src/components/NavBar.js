@@ -9,7 +9,7 @@ function NavBar() {
 
   const domLinks = linkObjects.map(item => {
     const itemName = item.link
-    return <a href={"#"+{itemName}} key={item.id}>{item.link}</a>
+    return <a href={"#"+itemName} key={item.id}>{item.link}</a>
   })
 
   console.log("domlinks: ", domLinks)
